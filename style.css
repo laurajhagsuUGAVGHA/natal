@@ -1,0 +1,80 @@
+/* .natal{
+width: 1540px;
+height: 730px;
+}
+
+.contagem{
+  text-align: center;
+  margin-top: -500px;
+}
+
+.smalltext{
+    text-align: center;
+    align-items: center;
+}
+
+.days{
+    text-align: center;
+}
+
+.hours{
+    text-align: center;
+}
+
+.minutes{
+    text-align: center;
+}
+
+.seconds{
+    text-align: center;
+} */
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+  }
+  
+  .countdown {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+  }
+  
+  .natal {
+    width: 1540px;
+    height: 730px;
+  }
+  
+  .contagem {
+    margin-top: -500px;
+    color: #481313;
+  }
+  
+  #timer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  #timer div {
+    text-align: center;
+  }
+  
+  #timer span {
+    
+    font-size: 2em;
+    display: block;
+    color: #000000;
+  }
+  
+  .smalltext {
+    font-size: 0.8em;
+    margin-top: 5px;
+    color: #d3ae51;
+  }
